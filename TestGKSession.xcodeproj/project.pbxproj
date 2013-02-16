@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160933F416C9365F00E56ABC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160933F316C9365F00E56ABC /* UIKit.framework */; };
+		160933F616C9365F00E56ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160933F516C9365F00E56ABC /* Foundation.framework */; };
+		160933F816C9365F00E56ABC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160933F716C9365F00E56ABC /* CoreGraphics.framework */; };
+		160933FE16C9365F00E56ABC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 160933FC16C9365F00E56ABC /* InfoPlist.strings */; };
+		1609340016C9365F00E56ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 160933FF16C9365F00E56ABC /* main.m */; };
+		1609340416C9365F00E56ABC /* TGSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1609340316C9365F00E56ABC /* TGSAppDelegate.m */; };
+		1609340616C9365F00E56ABC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609340516C9365F00E56ABC /* Default.png */; };
+		1609340816C9365F00E56ABC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609340716C9365F00E56ABC /* Default@2x.png */; };
+		1609340A16C9365F00E56ABC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609340916C9365F00E56ABC /* Default-568h@2x.png */; };
+		1609340D16C9365F00E56ABC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1609340B16C9365F00E56ABC /* MainStoryboard_iPhone.storyboard */; };
+		1609341016C9365F00E56ABC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1609340E16C9365F00E56ABC /* MainStoryboard_iPad.storyboard */; };
+		1609341516C9365F00E56ABC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609341416C9365F00E56ABC /* first.png */; };
+		1609341716C9365F00E56ABC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609341616C9365F00E56ABC /* first@2x.png */; };
+		1609341C16C9365F00E56ABC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609341B16C9365F00E56ABC /* second.png */; };
+		1609341E16C9365F00E56ABC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1609341D16C9365F00E56ABC /* second@2x.png */; };
+		1609342A16C9394400E56ABC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1609342916C9394400E56ABC /* GameKit.framework */; };
+		160D246616CFFE5500C039C3 /* TGSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160D246316CFFE5500C039C3 /* TGSFirstViewController.m */; };
+		160D246716CFFE5500C039C3 /* TGSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160D246516CFFE5500C039C3 /* TGSSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		160933EF16C9365F00E56ABC /* TestGKSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGKSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160933F316C9365F00E56ABC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		160933F516C9365F00E56ABC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		160933F716C9365F00E56ABC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		160933FB16C9365F00E56ABC /* TestGKSession-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGKSession-Info.plist"; sourceTree = "<group>"; };
+		160933FD16C9365F00E56ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		160933FF16C9365F00E56ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1609340116C9365F00E56ABC /* TestGKSession-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGKSession-Prefix.pch"; sourceTree = "<group>"; };
+		1609340216C9365F00E56ABC /* TGSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSAppDelegate.h; sourceTree = "<group>"; };
+		1609340316C9365F00E56ABC /* TGSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSAppDelegate.m; sourceTree = "<group>"; };
+		1609340516C9365F00E56ABC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1609340716C9365F00E56ABC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1609340916C9365F00E56ABC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1609340C16C9365F00E56ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1609340F16C9365F00E56ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1609341416C9365F00E56ABC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		1609341616C9365F00E56ABC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		1609341B16C9365F00E56ABC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		1609341D16C9365F00E56ABC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		1609342916C9394400E56ABC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		160D246216CFFE5500C039C3 /* TGSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSFirstViewController.h; sourceTree = "<group>"; };
+		160D246316CFFE5500C039C3 /* TGSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSFirstViewController.m; sourceTree = "<group>"; };
+		160D246416CFFE5500C039C3 /* TGSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSSecondViewController.h; sourceTree = "<group>"; };
+		160D246516CFFE5500C039C3 /* TGSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160933EC16C9365F00E56ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1609342A16C9394400E56ABC /* GameKit.framework in Frameworks */,
+				160933F416C9365F00E56ABC /* UIKit.framework in Frameworks */,
+				160933F616C9365F00E56ABC /* Foundation.framework in Frameworks */,
+				160933F816C9365F00E56ABC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160933E416C9365E00E56ABC = {
+			isa = PBXGroup;
+			children = (
+				160933F916C9365F00E56ABC /* TestGKSession */,
+				160933F216C9365F00E56ABC /* Frameworks */,
+				160933F016C9365F00E56ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160933F016C9365F00E56ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160933EF16C9365F00E56ABC /* TestGKSession.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160933F216C9365F00E56ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1609342916C9394400E56ABC /* GameKit.framework */,
+				160933F316C9365F00E56ABC /* UIKit.framework */,
+				160933F516C9365F00E56ABC /* Foundation.framework */,
+				160933F716C9365F00E56ABC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		160933F916C9365F00E56ABC /* TestGKSession */ = {
+			isa = PBXGroup;
+			children = (
+				160D246216CFFE5500C039C3 /* TGSFirstViewController.h */,
+				160D246316CFFE5500C039C3 /* TGSFirstViewController.m */,
+				160D246416CFFE5500C039C3 /* TGSSecondViewController.h */,
+				160D246516CFFE5500C039C3 /* TGSSecondViewController.m */,
+				1609340216C9365F00E56ABC /* TGSAppDelegate.h */,
+				1609340316C9365F00E56ABC /* TGSAppDelegate.m */,
+				1609340B16C9365F00E56ABC /* MainStoryboard_iPhone.storyboard */,
+				1609340E16C9365F00E56ABC /* MainStoryboard_iPad.storyboard */,
+				1609341416C9365F00E56ABC /* first.png */,
+				1609341616C9365F00E56ABC /* first@2x.png */,
+				1609341B16C9365F00E56ABC /* second.png */,
+				1609341D16C9365F00E56ABC /* second@2x.png */,
+				160933FA16C9365F00E56ABC /* Supporting Files */,
+			);
+			path = TestGKSession;
+			sourceTree = "<group>";
+		};
+		160933FA16C9365F00E56ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160933FB16C9365F00E56ABC /* TestGKSession-Info.plist */,
+				160933FC16C9365F00E56ABC /* InfoPlist.strings */,
+				160933FF16C9365F00E56ABC /* main.m */,
+				1609340116C9365F00E56ABC /* TestGKSession-Prefix.pch */,
+				1609340516C9365F00E56ABC /* Default.png */,
+				1609340716C9365F00E56ABC /* Default@2x.png */,
+				1609340916C9365F00E56ABC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160933EE16C9365F00E56ABC /* TestGKSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1609342116C9365F00E56ABC /* Build configuration list for PBXNativeTarget "TestGKSession" */;
+			buildPhases = (
+				160933EB16C9365F00E56ABC /* Sources */,
+				160933EC16C9365F00E56ABC /* Frameworks */,
+				160933ED16C9365F00E56ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGKSession;
+			productName = TestGKSession;
+			productReference = 160933EF16C9365F00E56ABC /* TestGKSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160933E616C9365E00E56ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TGS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = kyoko.niida;
+			};
+			buildConfigurationList = 160933E916C9365E00E56ABC /* Build configuration list for PBXProject "TestGKSession" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 160933E416C9365E00E56ABC;
+			productRefGroup = 160933F016C9365F00E56ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160933EE16C9365F00E56ABC /* TestGKSession */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160933ED16C9365F00E56ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160933FE16C9365F00E56ABC /* InfoPlist.strings in Resources */,
+				1609340616C9365F00E56ABC /* Default.png in Resources */,
+				1609340816C9365F00E56ABC /* Default@2x.png in Resources */,
+				1609340A16C9365F00E56ABC /* Default-568h@2x.png in Resources */,
+				1609340D16C9365F00E56ABC /* MainStoryboard_iPhone.storyboard in Resources */,
+				1609341016C9365F00E56ABC /* MainStoryboard_iPad.storyboard in Resources */,
+				1609341516C9365F00E56ABC /* first.png in Resources */,
+				1609341716C9365F00E56ABC /* first@2x.png in Resources */,
+				1609341C16C9365F00E56ABC /* second.png in Resources */,
+				1609341E16C9365F00E56ABC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160933EB16C9365F00E56ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1609340016C9365F00E56ABC /* main.m in Sources */,
+				1609340416C9365F00E56ABC /* TGSAppDelegate.m in Sources */,
+				160D246616CFFE5500C039C3 /* TGSFirstViewController.m in Sources */,
+				160D246716CFFE5500C039C3 /* TGSSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		160933FC16C9365F00E56ABC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160933FD16C9365F00E56ABC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1609340B16C9365F00E56ABC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1609340C16C9365F00E56ABC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1609340E16C9365F00E56ABC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1609340F16C9365F00E56ABC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1609341F16C9365F00E56ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1609342016C9365F00E56ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1609342216C9365F00E56ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kyoko niida (G9SPWKZ4YE)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGKSession/TestGKSession-Prefix.pch";
+				INFOPLIST_FILE = "TestGKSession/TestGKSession-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A7B0665C-EB08-4FC0-AAEC-F613DBB457D8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1609342316C9365F00E56ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kyoko niida (G9SPWKZ4YE)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGKSession/TestGKSession-Prefix.pch";
+				INFOPLIST_FILE = "TestGKSession/TestGKSession-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A7B0665C-EB08-4FC0-AAEC-F613DBB457D8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160933E916C9365E00E56ABC /* Build configuration list for PBXProject "TestGKSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1609341F16C9365F00E56ABC /* Debug */,
+				1609342016C9365F00E56ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1609342116C9365F00E56ABC /* Build configuration list for PBXNativeTarget "TestGKSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1609342216C9365F00E56ABC /* Debug */,
+				1609342316C9365F00E56ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160933E616C9365E00E56ABC /* Project object */;
+}
